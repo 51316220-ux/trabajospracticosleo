@@ -1,16 +1,27 @@
-let numero1 = 330
-let numero2 = 30
-let suma=numero1+numero2
-console.log(numero1+'+'+numero2+'='+suma)
-alert(numero1+'+'+numero2+'='+suma)
- numero1 = 45
- numero2 = 15
- let resta=numero1 - numero2
-alert(numero1+'-'+numero2+'='+ resta)
- console.log(numero1+'-'+numero2+'='+ resta)
-let multiplicacion = numero1*numero2
- console.log('el resultado de '+ numero1+'*'+numero2+' es'+ multiplicacion)
- alert(numero1+'*'+numero2+'='+ multiplicacion)
- let division=numero1/numero2
- console.log('el resultado de '+ numero1+'/'+numero2+' es '+ division)
- alert(numero1+'/'+numero2+'='+ division)
+let numero1 = 5
+let numero2 = 50
+let suma = numero1 + numero2
+confirm("El resultado de la suma es: " + suma)
+let resta = numero1 - numero2
+confirm("El resultado de la resta es: " + resta)
+let multiplicacion = numero1 * numero2
+console.log("El resultado de la multiplicacion es: " + multiplicacion)
+let division = numero1 / numero2
+console.log("El resultado de la division es: " + division)
+let nombreAlumno = "nahuel"
+let apellidoAlumno = "molina"
+let edadAlumno = 30
+console.log("El alumno : " + nombreAlumno + " " + apellidoAlumno + " tiene " + edadAlumno + " años")
+let precio1 = 125
+let precio2 = 500
+let precio3 = 45
+let total = precio1 + precio2 + precio3
+console.log("El total a pagar es : " + total)
+let comidaFavorita = "asado"
+let colorFavorito = "verde"
+let numeroFavorito = 7
+console.log("Mi comida favorita es " + comidaFavorita + ", me gusta el color " + colorFavorito + " y mi número favorito es " + numeroFavorito)
+let pais = "Argentina"
+console.log(pais)
+pais = 'noruega'
+console.log(pais)
